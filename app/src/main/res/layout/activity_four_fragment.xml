@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".FourFragmentActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/numero_2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="217dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Impacto en la dificultad quirúrgica por retraso de 6 semanas"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/titulofactores2"
+        android:layout_width="384dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Factores asociados a las enfermedades"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/v2BotonSiguiente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/titulos"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Siguiente"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p7Procedimiento"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/v2BotonAtras2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/titulos"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Atrás"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p7Procedimiento"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Efectividad de las opciones de tratamiento no quirúrgica"
+        android:textAlignment="textStart"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulofactores2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Recursos y riesgo de exposición de las opciones de tratamiento no quirúrgico"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Impacto en las consecuencias de la enfermedad por retraso de 2 semanas"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Impacto en la dificultad quirúrgica por retraso de 2 semanas"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="218dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Impacto en las consecuencias de la enfermedad por retraso de 6 semanas"
+        android:textColor="@color/titulos"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <SeekBar
+        android:id="@+id/disease1"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <SeekBar
+        android:id="@+id/disease2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <SeekBar
+        android:id="@+id/disease3"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <SeekBar
+        android:id="@+id/disease4"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <SeekBar
+        android:id="@+id/disease5"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <SeekBar
+        android:id="@+id/disease6"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:max="4"
+        android:progress="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulofactores2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disease1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disease2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disease3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disease4" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disease5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
